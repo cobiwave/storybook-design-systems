@@ -27,7 +27,7 @@ const App = () => {
       >
         Show modal
       </PrimaryButton>
-      <div
+      <section
         style={{
           background: useDarkTheme
             ? defaultTheme.primaryColor
@@ -42,7 +42,7 @@ const App = () => {
         <SignUpModal showModal={showModal} setShowModal={setShowModal} />
 
         <GlobalStyle />
-      </div>
+      </section>
     </ThemeProvider>
   );
 };
